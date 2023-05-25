@@ -1,4 +1,5 @@
 import React from "react";
+import Component2  from './Component2';
 
 export const Component1 = () => {
   let name = "Ariel Ivan Diaz";
@@ -21,6 +22,7 @@ export const Component1 = () => {
           </div>
         ))}
       </ul>
+      <Component2 job='Project Manager'></Component2>
     </>
   );
 };
