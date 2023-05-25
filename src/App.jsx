@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Component1 } from "./components/Component1";
+import { Component3 } from "./components/Component3";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -30,6 +31,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <Component1></Component1>
+      <Component3></Component3>
     </>
   );
 }
