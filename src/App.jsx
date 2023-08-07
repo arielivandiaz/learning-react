@@ -1,12 +1,17 @@
 import { useState } from "react";
 import { Component1 } from "./components/Component1";
 import { Component3 } from "./components/Component3";
+import { Component4 } from "./components/Component4";
+import { Component5 } from "./components/Component5";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
+
 function App() {
   const [count, setCount] = useState(0);
+
+  const year = new Date().getFullYear();
 
   return (
     <>
@@ -32,6 +37,8 @@ function App() {
       </p>
       <Component1></Component1>
       <Component3></Component3>
+      <Component4></Component4>
+      <Component5 year={ year }></Component5>
     </>
   );
 }
