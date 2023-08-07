@@ -6,6 +6,7 @@ import { Component5 } from "./components/Component5";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import { ComponentFetch } from "./components/ComponentFetch";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
   return (
     <>
       <div>
+        <ComponentFetch>  </ComponentFetch>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
